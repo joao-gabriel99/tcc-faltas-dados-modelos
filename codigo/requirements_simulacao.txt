@@ -1,0 +1,7 @@
+# Dependências do núcleo de simulação; ambientes originais em metadados/ambientes.json.
+dss-python>=0.15
+numpy
+pandas
+pyarrow
+pyyaml
+tqdm

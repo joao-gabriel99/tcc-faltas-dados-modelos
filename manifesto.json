@@ -1,0 +1,1221 @@
+{
+  "schema": "tcc.pacote-bases-modelos-circuitos.v1",
+  "version": "1.0.0",
+  "state": "ARTEFATOS_DA_VERSAO_1_0_0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+      "category": "licenças e documentação"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 87,
+      "sha256": "a0f79421285f3e8b99e4fef0694a118b38879e269e69993db52aada582623029",
+      "category": "licenças e documentação"
+    },
+    {
+      "path": "circuitos/ieee123/fonte_manifesto.json",
+      "bytes": 8245,
+      "sha256": "81a80c768505980e4a49b5ee934e64d0238e0cf5918d4eb5327d5d486d56eda7",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee123/IEEE123_prod.dss",
+      "bytes": 294,
+      "sha256": "1d9358f474901687a06fdc663e05a7e1b1b4e9fdfb65c62900f61ee4161a68f6",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee123/originais/trunk/Distrib/IEEETestCases/123Bus/BusCoords.dat",
+      "bytes": 2858,
+      "sha256": "0b409c0e5d99f365c0140bf38280c1d64932032f1ecb8ef83ae54d4ed0d2716f",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee123/originais/trunk/Distrib/IEEETestCases/123Bus/IEEE123Loads.DSS",
+      "bytes": 8289,
+      "sha256": "fd28f52836205506a1980b52c5a7e12ca585aa626c52a6249502c1c3b2fc2255",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee123/originais/trunk/Distrib/IEEETestCases/123Bus/IEEE123Master.dss",
+      "bytes": 17008,
+      "sha256": "cc7c2f153ca1e57f9fb5cad8b3c3e1ecbcb20c5db59ca4d65539411a50525969",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee123/originais/trunk/Distrib/IEEETestCases/123Bus/IEEE123Regulators.DSS",
+      "bytes": 1861,
+      "sha256": "cd6ad77980dc018631ce39faab528afce40b0b9a50a6bc1c9ac8049ffb8207d7",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee123/originais/trunk/Distrib/IEEETestCases/123Bus/IEEELineCodes.DSS",
+      "bytes": 11971,
+      "sha256": "be95f7afaf3e342b132ff2ef20a2b150e3b9966626cbf95eb47f5e9820953c40",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee123/originais/trunk/Distrib/IEEETestCases/123Bus/Run_IEEE123Bus.DSS",
+      "bytes": 4764,
+      "sha256": "559ccd5d3173f9204a7a5a1a764c3f405a0f46941f5e4fd7713f1ebf7ebbc0ef",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee123/originais/trunk/License.txt",
+      "bytes": 1760,
+      "sha256": "f31de5735cad3e87994686ca05803c4969f55667b33b9aae06c256a4c1e5d666",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee13/IEEE13Node_BusXY.csv",
+      "bytes": 243,
+      "sha256": "f8dd1528c72f339ebf41bf1355ed64ef12fbe30864fcc839ed5e5e9dc527846e",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee13/IEEE13Nodeckt.dss",
+      "bytes": 8498,
+      "sha256": "05ad0761cdd6e28e02f33846b9eec035ed1b6ddd160337ad107a1c156ce95f30",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee13/IEEELineCodes.DSS",
+      "bytes": 11852,
+      "sha256": "855910b3757efb1084c8310747a3459881cc135bd773665cdd6db16ff9b50ae1",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee34/IEEE34_BusXY.csv",
+      "bytes": 469,
+      "sha256": "855045a39fad0f442b26974bd2ecba8d66dc39e053b616aff14931a7fb81fdbe",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee34/ieee34Mod1.dss",
+      "bytes": 14095,
+      "sha256": "daec6c32201d0764e24cc9e01c8205bb369b5acbc4b5892c97d0e6f224c2c15c",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ieee34/IEEELineCodes.DSS",
+      "bytes": 11698,
+      "sha256": "114eda360e307bfb276a077a8c137bcea395e89853b2494bbb57b175bafdbf7c",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "circuitos/ORIGEM.md",
+      "bytes": 4113,
+      "sha256": "f898e8cef511ce4229e0163eed0e59f92e6b4f88444997ebd288589cdd4a9648",
+      "category": "circuito e procedência"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 788,
+      "sha256": "e522624365ca2fc6a1107893aea8e3d51e5eb89020292c94e0faccc212d7586f",
+      "category": "licenças e documentação"
+    },
+    {
+      "path": "codigo/consultar_modelo.py",
+      "bytes": 1500,
+      "sha256": "da6e98d61b7233f7f5cfe58da3e5c2257236f9e996dd1434bca4214fd2d3e332",
+      "category": "código de consulta"
+    },
+    {
+      "path": "codigo/gerar_dados.py",
+      "bytes": 2499,
+      "sha256": "a4ffe7427a7c09da5659f1c63ac31d14d32d033e9db631053f5a70dc905f83c2",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/requirements_ieee123.txt",
+      "bytes": 247,
+      "sha256": "cb27398cfe86bb23c204c81ba1acc1df5b7d3b599096656a041b2272c12d98b4",
+      "category": "código de consulta"
+    },
+    {
+      "path": "codigo/requirements_ieee13_34.txt",
+      "bytes": 226,
+      "sha256": "632fb5f60938d4be0bc41e78da589124e3aef4159719d72d8dc9c9694421eac8",
+      "category": "código de consulta"
+    },
+    {
+      "path": "codigo/requirements_simulacao.txt",
+      "bytes": 149,
+      "sha256": "d83ca9f8100006efec781c8bea486fb7da0a9501f007e75d3900fd5fcd2c8ba3",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/SIMULACAO.md",
+      "bytes": 2400,
+      "sha256": "ec4c25096ef12b89e735d7a7595040bae9972c2e61b3c88014c7238eed1217cb",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/simulacao123/gerar_ieee123.py",
+      "bytes": 17470,
+      "sha256": "160e36ae22d57dbd0434c717436ebc5e515143f7fe3c39666775f9fbb5362d1e",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/simulacao123/parametros_geracao.json",
+      "bytes": 5260,
+      "sha256": "33fab20fb7adf4e5fa324da887a2e2cf6a56a4ced47def208cabaee9cf177352",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "código de consulta"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/circuit/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/circuit/bus_info.py",
+      "bytes": 882,
+      "sha256": "4e0fe590dd6d678860d345eed87e66230e055242084ef27c5e8709a2f49d5f22",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/circuit/loader.py",
+      "bytes": 836,
+      "sha256": "d9425bd6d925cc69706130c453333773ce092d1b6ed01cb0846126fffb7600a4",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/features/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "código de consulta"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/features/build.py",
+      "bytes": 3110,
+      "sha256": "4356c2195ead4f90e1f68ae1351f311c0d1956e22bdf9c096562e42f0607e1c9",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/features/cartesian.py",
+      "bytes": 2223,
+      "sha256": "12bd85f112aec24810ccb55a53e94980315803574982220ca43de04aaab419aa",
+      "category": "código de consulta"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/features/symmetric.py",
+      "bytes": 1019,
+      "sha256": "f08e402fff755a48c27b7d834a6ad849939fe5c78c73044ca3b7b036eb4c8e4c",
+      "category": "código de consulta"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/models/evaluation.py",
+      "bytes": 4163,
+      "sha256": "756c510dd348eafe380b4193049ea1b3292fe5a0335eb95529d8045c0033adda",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/models/factories.py",
+      "bytes": 1667,
+      "sha256": "1ede659f3e4c8f2698773745c316e23eaa8fcdbfc19ec1cd9b3c7cbb269b8097",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/pipelines/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/pipelines/generate_dataset.py",
+      "bytes": 10587,
+      "sha256": "bfb4bdf7fd755d6a40e02214adb74affd0272c0c98a2c0c29b143f625b52d0a7",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/simulation/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/simulation/fault_injector.py",
+      "bytes": 4838,
+      "sha256": "d61186f0e1298ef49ddcf6f67e80960e9d16db84d9fee058e0ce963d3f5f3ee6",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/simulation/load_distributions.py",
+      "bytes": 4697,
+      "sha256": "661efb92013fbc204df2dc2621b0cec4f9dceb34e483c52ffb9e8cb8f3c62d59",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/simulation/runner.py",
+      "bytes": 7554,
+      "sha256": "859428df16db9f2e911717f1eada2311c511cb3e68a9b3dcce5ee0fe073f9c59",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/simulation/scenarios.py",
+      "bytes": 2513,
+      "sha256": "3a72f6bd31e11f19ab8ff2ccc5a3a78eb4d49ee5d99f8af1f7c7ef1b7eb4c3ae",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/src/opendss_tcc/simulation/snapshot.py",
+      "bytes": 3391,
+      "sha256": "f436eda07a372a8a838e6c58c99aafac5a61c5aa076e83c98ec115bf7cf77182",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/treinamento_e_avaliacao/driver_ieee123.py",
+      "bytes": 33203,
+      "sha256": "a06e52f158b2be1687d8a4daae2f304d1d3bec89b93f655cc0bbd3d7498cee6a",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/treinamento_e_avaliacao/escolhas_finais_publicadas.json",
+      "bytes": 86259,
+      "sha256": "252c6b62696ff1eb89077e74e605daababf8e82bfb9f913dd3941bffac075305",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/treinamento_e_avaliacao/final_ieee13_34.py",
+      "bytes": 8579,
+      "sha256": "526b48e54c69047e78a3fca0c365d57e384bb41152e2757ed244406b86e07264",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/treinamento_e_avaliacao/plano_final_ieee13_34.json",
+      "bytes": 60730,
+      "sha256": "7e03d293192e2bc3e21a1441ded4c68e5209c0e8076f95cb43143c287e65526a",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/treinamento_e_avaliacao/requirements_treinamento.txt",
+      "bytes": 75,
+      "sha256": "283ef319e32ca38c65ce40655b20be44f059179a6d67220a9bf650b42be8b7ef",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/treinamento_e_avaliacao/TREINAMENTO.md",
+      "bytes": 3058,
+      "sha256": "3888998d7a72352a4f26724476d4f12d70a815bc8ac348dc84dd4c5746adb75b",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/treinamento_e_avaliacao/treino_cv.py",
+      "bytes": 7381,
+      "sha256": "45127c033f1b1fd1777131fb48811e2f3c60d32cb5ce994e0a1a9e2fbe3de4af",
+      "category": "código de simulação e ML"
+    },
+    {
+      "path": "codigo/verificar_integridade.py",
+      "bytes": 713,
+      "sha256": "d3ef009e02ed2950e3aadcbde6ae089a6e92ef8c964df9c027124983c0fba9fd",
+      "category": "código de consulta"
+    },
+    {
+      "path": "DICIONARIO_DADOS.md",
+      "bytes": 4364,
+      "sha256": "33d3d1c0de293146433f2724862163ccbf8b6124d2ecd8ae54e064a28180f6db",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "licencas/CC-BY-4.0.txt",
+      "bytes": 17179,
+      "sha256": "4500200b91acb1324538d8e8f9665d5f4142d3f1c5cd9730564cf1895b6170f7",
+      "category": "licenças e documentação"
+    },
+    {
+      "path": "licencas/MIT.txt",
+      "bytes": 1106,
+      "sha256": "3d0ccffafc4c87bbd95b529451688ad1b0207afd4747b771660a5419811f8547",
+      "category": "licenças e documentação"
+    },
+    {
+      "path": "licencas/terceiros/OpenDSS-instalacao-LICENSE.txt",
+      "bytes": 1760,
+      "sha256": "f2e297ca5b4949ab20fb92b775466c5711e7878b4eaacd68f78cda622880724a",
+      "category": "licença de terceiro"
+    },
+    {
+      "path": "licencas/terceiros/OpenDSS-SVN-r4176-LICENSE.txt",
+      "bytes": 1760,
+      "sha256": "f31de5735cad3e87994686ca05803c4969f55667b33b9aae06c256a4c1e5d666",
+      "category": "licença de terceiro"
+    },
+    {
+      "path": "LICENCAS.md",
+      "bytes": 1295,
+      "sha256": "bcea784e9343af9f56b3f935e9c5c8203d8f8e389520f7ecdc4bd42915b98c98",
+      "category": "licenças e documentação"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1106,
+      "sha256": "3d0ccffafc4c87bbd95b529451688ad1b0207afd4747b771660a5419811f8547",
+      "category": "licenças e documentação"
+    },
+    {
+      "path": "metadados/ambientes.json",
+      "bytes": 1408,
+      "sha256": "85a6b484a02dcb3a553237e79bfe49472308d29355ffd490661a4473affdfbd0",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "metadados/bases.json",
+      "bytes": 46629,
+      "sha256": "319588ab7afa347b55cb1d49e2629344ac4eff7500f9979ba094ac930ed37aaa",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "metadados/contagens.json",
+      "bytes": 1021,
+      "sha256": "ea4f4373bd52e9745a13c88ad8b0defe6080b38972b179d803b1505b57fa030d",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "metadados/modelos.json",
+      "bytes": 142968,
+      "sha256": "c40c06225dceb25e4b9d626208349fa6060767506d411128697c52e54d97021b",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "metadados/verificacao_modelos.json",
+      "bytes": 14362,
+      "sha256": "f6e9376147656ffee417a9ea306cb4d54c388ad37e02403824965e5714eca657",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5913,
+      "sha256": "c99641116ad48bf816ea79cbcafe0911ecf91bdd1904c95ea6b943e5ceedcf6d",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee123/dados/teste_final/dataset.parquet",
+      "bytes": 58155112,
+      "sha256": "5f6e07bb91facb1220609282b68501668e8d9d278c07b36dc9a4113250b6d282",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee123/dados/teste_final/raw_simulations.parquet",
+      "bytes": 14417566,
+      "sha256": "9b99dde401799b72928f9cdf61859e8dfc2821508f7f965f07716029cb5d0d86",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee123/dados/treino_cv/dataset.parquet",
+      "bytes": 60403162,
+      "sha256": "3dc50f5f679bc280ef9b0c76e9e0890cf09048e460c1e5e5673c82a9cc52297e",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee123/dados/treino_cv/raw_simulations.parquet",
+      "bytes": 14976144,
+      "sha256": "e1d4fa301a1d2a7f766749a17eefe88fd5c4f83f80742e6ab107758492f4a03b",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee123/metadados/configuracao_treino.yaml",
+      "bytes": 1023,
+      "sha256": "5455e2547cddf88af73aa1591b250e86b16801ad82865f3693db889062bcc302",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee123/metadados/grupos_barras.json",
+      "bytes": 2434,
+      "sha256": "b76435109832a31d6ac58f08c18fbebb7153a163ede34debd8202c1e47a4bb75",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee123/metadados/niveis_teste_final.json",
+      "bytes": 498,
+      "sha256": "95e74d7e861d602111dffb04d639b783ca5fc9274d1ee14e7cce1e5a4e734496",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee123/metadados/perfis_espaciais.json",
+      "bytes": 27143,
+      "sha256": "724b19fe0187b4591e0ca4bc2b3350f011765582eb9015cddda00c73b33e4f2c",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__controle_p0__MLP.joblib",
+      "bytes": 455330,
+      "sha256": "b119de2ea99e7145dbe7f81407084b3b466afbf7b13b33d9c9cf54a77eaa6efc",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__controle_p0__MLP.json",
+      "bytes": 4098,
+      "sha256": "840720c998cc85cbb140ffe9427fbf729790421151491b968e1f0e395dd48501",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__controle_p0__RandomForest.joblib",
+      "bytes": 46471030,
+      "sha256": "a098055611e889425eb8d337926a09de679ad2c0aa6c9bff5a2a283c72b82838",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__controle_p0__RandomForest.json",
+      "bytes": 3875,
+      "sha256": "85b1d9aba8e7ef4c824a431c5cad9265190de83f8294bcb4e6222f51f4cbf88e",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__controle_p0__XGBoost.joblib",
+      "bytes": 14509307,
+      "sha256": "d0867f763c3591ba7caafa6d7919d7a20b71a9ebe953e4337d8d38256c1427e8",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__controle_p0__XGBoost.json",
+      "bytes": 6026,
+      "sha256": "c7f8c0492135a38debeb97b1b41e92b13b2e9bc3e7533c2465d8bbb6be349902",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__enriquecido_p0_p5__MLP.joblib",
+      "bytes": 446489,
+      "sha256": "31d57c49570df5388fe26c7fc9e12a611e7304113c4949845f9e3e7cab12ce54",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__enriquecido_p0_p5__MLP.json",
+      "bytes": 4124,
+      "sha256": "610d40309b8847cf82c53d16d28dc138b65a21e102c7554c38640f8f05578ac3",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__enriquecido_p0_p5__RandomForest.joblib",
+      "bytes": 189732706,
+      "sha256": "162bbfd620efa08654ae8eb62caf0f09e026c888549914c498c9c50620c2f746",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__enriquecido_p0_p5__RandomForest.json",
+      "bytes": 3851,
+      "sha256": "72388c0566a1f14e440806429d44d3aca90db5755bdfaa089f47262f26d0b607",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__enriquecido_p0_p5__XGBoost.joblib",
+      "bytes": 17732298,
+      "sha256": "f453a7ced77279e9a511150e84a3fd832f068dae4d8a45fd0e7272eebbd5c056",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__bus__enriquecido_p0_p5__XGBoost.json",
+      "bytes": 6052,
+      "sha256": "cfffaacbd406a14567eeccf2fea890d9c1febdf84221f6ee8940c1cd0a653c5a",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__controle_p0__MLP.joblib",
+      "bytes": 284884,
+      "sha256": "5c25188113dc933e5fc81c65413db403ae069cf92084ced1c899bfc07683cad8",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__controle_p0__MLP.json",
+      "bytes": 2885,
+      "sha256": "14989ee69e7d2a181f9c1e130776a45fb9a143f5ab2f3921cc8e2544b8eb0981",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__controle_p0__RandomForest.joblib",
+      "bytes": 2444580,
+      "sha256": "c4d094940dc81e03cb6b29eca609084409714ad08628630ce57575abe54025ca",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__controle_p0__RandomForest.json",
+      "bytes": 2722,
+      "sha256": "11fdf0abf51c22392a13eb2805ba1e39065a31bdf1386a51bf30967706066f64",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__controle_p0__XGBoost.joblib",
+      "bytes": 2041036,
+      "sha256": "f733b012bba54d5efe998c3415d512c5919fd02f231c0b95798f7313fd7d03ff",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__controle_p0__XGBoost.json",
+      "bytes": 4873,
+      "sha256": "565d9940beb29fdb9c48e109c5a7411cde51ae7c6e0d55772ea7acac46d9a91c",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__enriquecido_p0_p5__MLP.joblib",
+      "bytes": 249633,
+      "sha256": "8df57fadcd5e0a95f5bf8a521ba74daf4b0e37ba5f26747fb21e4694bec455c9",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__enriquecido_p0_p5__MLP.json",
+      "bytes": 2911,
+      "sha256": "b3412816662caa922d638154e0927b371c78cd51fbc590190eadb0fe0ee99e35",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__enriquecido_p0_p5__RandomForest.joblib",
+      "bytes": 7278830,
+      "sha256": "da571bb193e9045e0701f181007c1ceafd9a0bba96d6612d9d94763415896f5f",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__enriquecido_p0_p5__RandomForest.json",
+      "bytes": 2748,
+      "sha256": "59b680108919704e59e44e14456a7683b1f2748a2ec7648a910e69997ad74f9a",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__enriquecido_p0_p5__XGBoost.joblib",
+      "bytes": 3265013,
+      "sha256": "7b8ee7745e324fdaea547e17a70fdf9d1f1287fd5516e1d4c3b85b9dff511686",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee123/modelos/ieee123__type__enriquecido_p0_p5__XGBoost.json",
+      "bytes": 4899,
+      "sha256": "4de1014c4a8f50aee1cc99b6f05f6c50fd0c37a355e8cd687ed508270a215190",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__bus__controle_p0__MLP.parquet",
+      "bytes": 132523,
+      "sha256": "08f5dd4d54fe30d9693ba02f643acfa3ca5a9bfd86c63b34c1582945d1e950b9",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__bus__controle_p0__RandomForest.parquet",
+      "bytes": 132950,
+      "sha256": "75b21a9e010a9cfde782cbdbd1f507ccebc852e293bdb950c1425a1f8274b08e",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__bus__controle_p0__XGBoost.parquet",
+      "bytes": 133304,
+      "sha256": "2d3ae4aa6add9e6347eaca10e704d4d16ec854c1331313581717784098db5235",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__bus__enriquecido_p0_p5__MLP.parquet",
+      "bytes": 769627,
+      "sha256": "f14961879e9035a48095bf384e5f4522558b8c2451e1a0ab28f3649e88ed8354",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__bus__enriquecido_p0_p5__RandomForest.parquet",
+      "bytes": 776683,
+      "sha256": "8d3cbb4671345a34111ae72d154e5f56f3abacd2aa1eb99bb1124510f49ce503",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__bus__enriquecido_p0_p5__XGBoost.parquet",
+      "bytes": 775792,
+      "sha256": "fa314f29f27607837eba7869b1571700d30e6b4ddd7d3a43cf212b7723ebdb82",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__type__controle_p0__MLP.parquet",
+      "bytes": 130066,
+      "sha256": "fbc2963b33c906d470648eff09bdee418e473d86a621c63b3e5b86b10c1dcbe9",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__type__controle_p0__RandomForest.parquet",
+      "bytes": 130084,
+      "sha256": "60ef49ebd6c71ff62ede512b24bbbaaa89be611a755290eb8bb9921d57c1973e",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__type__controle_p0__XGBoost.parquet",
+      "bytes": 130094,
+      "sha256": "4437ef1270eb57a3ae38e14be33bded0fd6fa98a52c21e343f7bbae31c97815e",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__type__enriquecido_p0_p5__MLP.parquet",
+      "bytes": 767562,
+      "sha256": "10072061bbb48695a86f303d7c77070a955e76741e6c5598794b20f4d860f03c",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__type__enriquecido_p0_p5__RandomForest.parquet",
+      "bytes": 767715,
+      "sha256": "1b6faffa9c4892199c8e5fdda88b2cc2f816acfb8bd40ed8346041ae30a6ddc6",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/previsoes/ieee123__type__enriquecido_p0_p5__XGBoost.parquet",
+      "bytes": 767904,
+      "sha256": "49be37a2617d219730cdedfdeaebfab2e4904cd82a2877a2b1f200cd191b7dd2",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee123/resultados/avaliacao_final.json",
+      "bytes": 1240636,
+      "sha256": "0dc017b978854b712dc68bc64c487eba7ec259aba420e4de8657299ffb6d0bc1",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee13/dados/teste_final/dataset.parquet",
+      "bytes": 7470493,
+      "sha256": "901b738e2e6984c0ed096d389c3e1e2412a3f37a9609645969e52239b09e8c55",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee13/dados/teste_final/raw_simulations.parquet",
+      "bytes": 1883802,
+      "sha256": "abe2d7d04d0f50b4737e738dcbbdef3857c94cac0607857df776acc96c6c835c",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee13/dados/treino_cv/dataset.parquet",
+      "bytes": 7858577,
+      "sha256": "94b2d3a7091cad2b87db6d18590e355963e7415a141f7a65b70dceb3fa5fb62f",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee13/dados/treino_cv/raw_simulations.parquet",
+      "bytes": 1981614,
+      "sha256": "907851874eca8f571fc0c2c64bd6d16fb3bc5ea05b5d5fccb879fe1a84c91ca6",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee13/metadados/configuracao_treino.yaml",
+      "bytes": 836,
+      "sha256": "af82f5270863b0ab8c165ab85c4d8c1f49b17beb671a1c282c3e93aeadab0f01",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee13/metadados/grupos_barras.json",
+      "bytes": 476,
+      "sha256": "99c66d9801d9d46c407ea0809c6d78cf9767751b01ec20b3358f586ff83f6811",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee13/metadados/niveis_teste_final.json",
+      "bytes": 498,
+      "sha256": "6aeb12ecc266b578e18b24f219384af04a8f87498b912bf08b50710b5846e8fc",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee13/metadados/perfis_espaciais.json",
+      "bytes": 5577,
+      "sha256": "f12f24de6b1b9670707934acb73cbb21e59ed9a61e31910a08687e5f3ed527f2",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__controle_p0__MLP.joblib",
+      "bytes": 405217,
+      "sha256": "1d679ed2fdb5691489a7e710052c4af5d6b34303eb724be765817049cf0594ae",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__controle_p0__MLP.json",
+      "bytes": 2977,
+      "sha256": "7ed10de085ca38b0eefb346569a8c1d4de4869e9f0fb6b34b8f9d3478e320c67",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__controle_p0__RandomForest.joblib",
+      "bytes": 4171263,
+      "sha256": "ff6f62ac8ea5d6500bae59c2fd04cf21c5f11a0740fae6cb00e056cb88625f6d",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__controle_p0__RandomForest.json",
+      "bytes": 2753,
+      "sha256": "71692d0d14a12eac410a5d2ee8238c575f690689fdf32342c4cf911484c05599",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__controle_p0__XGBoost.joblib",
+      "bytes": 933320,
+      "sha256": "0100d79642b097554282993eefdeab9f4c0172ac9510d3d1df091869af67d5e5",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__controle_p0__XGBoost.json",
+      "bytes": 4900,
+      "sha256": "430b647ecad01e01f3bb62934bba9fac966d14ae7ad870a9edbda9d16f128457",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__enriquecido_p0_p5__MLP.joblib",
+      "bytes": 334514,
+      "sha256": "10e865b086870cfc432c8df619a04ce22a09365200e5fbebd588f935a9deb8f4",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__enriquecido_p0_p5__MLP.json",
+      "bytes": 3004,
+      "sha256": "fd4384baaacf941b373d11ba0a19618108e1d026c049074406b2a4f46b5c396e",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__enriquecido_p0_p5__RandomForest.joblib",
+      "bytes": 16847203,
+      "sha256": "9c70da9f2d8b8a239bee41d3c0abf6acb3deb1163e8ffabb0e793fc3e1b55c5a",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__enriquecido_p0_p5__RandomForest.json",
+      "bytes": 2720,
+      "sha256": "1fece89c2e535e0dbad868821e9b047ec856f019e8c452b9a8044eee9d32a48c",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__enriquecido_p0_p5__XGBoost.joblib",
+      "bytes": 1240369,
+      "sha256": "043c9578f66aafcc9d1c744de931048608ce403dac58c96d391b476adec46a25",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__bus__enriquecido_p0_p5__XGBoost.json",
+      "bytes": 4928,
+      "sha256": "26b08c1b9044c71749f9c6ac49217efa9925a67893a03a1fbc353cec274cf591",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__controle_p0__MLP.joblib",
+      "bytes": 332000,
+      "sha256": "30ca3d81ece9e6f5ae017751029a66e8b4d6e446c638312ab5dd30beea3d8994",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__controle_p0__MLP.json",
+      "bytes": 2939,
+      "sha256": "86d4f6aece36a325c6e225466c6c7ee8be0530ef520fa1d0e224a45994622d59",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__controle_p0__RandomForest.joblib",
+      "bytes": 734095,
+      "sha256": "697c7dafcc9a8c1dcaeeb753fb69e7494eaea0b0b0ce2d2fdc7a641facb01340",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__controle_p0__RandomForest.json",
+      "bytes": 2653,
+      "sha256": "825bc5831832e2132b5a92245cc21be77cca0788f0cdb1000cb4b1ce29651fbd",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__controle_p0__XGBoost.joblib",
+      "bytes": 237186,
+      "sha256": "513aafd9f10d20c6368332f2f531448e4c945bc61d82bbf92d41a9a835586c2c",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__controle_p0__XGBoost.json",
+      "bytes": 4801,
+      "sha256": "54411ddfdbc1bb84b40ce2ab32b034d4918a8b7b2a6205636318015de0bdddde",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__enriquecido_p0_p5__MLP.joblib",
+      "bytes": 332576,
+      "sha256": "83f4a95a749136c9e8f692a156fcf2d668ee6c3644de99636cc6df60ee7dd62c",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__enriquecido_p0_p5__MLP.json",
+      "bytes": 2966,
+      "sha256": "26b8502f4e92debfb4920a24fe69b7ce31afa4c50718b69210f1a61c6a031b1a",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__enriquecido_p0_p5__RandomForest.joblib",
+      "bytes": 496226,
+      "sha256": "ac7ea52d505a590e6a403eff5ae5a0855228c1f08bf4be5a71838e3d9e67b1ce",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__enriquecido_p0_p5__RandomForest.json",
+      "bytes": 2741,
+      "sha256": "3021554121449b4ff2a453ee3f066e597b600e4d2df5b61218c5057e31eddd81",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__enriquecido_p0_p5__XGBoost.joblib",
+      "bytes": 249405,
+      "sha256": "919bbce27d0fac21d22ce92bb664c4d9f237be282551f0112b098b13ff9c0cd4",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee13/modelos/ieee13__type__enriquecido_p0_p5__XGBoost.json",
+      "bytes": 4889,
+      "sha256": "19861aa5b2653770b2c1d64f25a9c123b5e76317720bf4a7e4cc99de765caf90",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__bus__controle_p0__MLP.parquet",
+      "bytes": 5543,
+      "sha256": "7f4d5b88b7c03c2d4ab9de873014be7cace84da06773fe05cc548929649897d5",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__bus__controle_p0__RandomForest.parquet",
+      "bytes": 5694,
+      "sha256": "e988ae8f96edf56b556c14d601e8901d1025ba2906fda192fb0c34c0bd016b7d",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__bus__controle_p0__XGBoost.parquet",
+      "bytes": 5666,
+      "sha256": "aa2c7e93624f218ac663139a19571a4ace0c213318bdfc31fcd494ef3953a865",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__bus__enriquecido_p0_p5__MLP.parquet",
+      "bytes": 6508,
+      "sha256": "d12bef369e5b27fc60750941f9fcbea92099b77150ebe97c168583009215c331",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__bus__enriquecido_p0_p5__RandomForest.parquet",
+      "bytes": 7521,
+      "sha256": "639d4c6a7f95377d58b326c7dace9e8970d0f38a7fdbfce9a149ba0e7ca44ad9",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__bus__enriquecido_p0_p5__XGBoost.parquet",
+      "bytes": 7117,
+      "sha256": "11f6f9d9692c5f756ab199d539c3730928b30c5abd1d0c2dcfbe2ab72a42e2ce",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__type__controle_p0__MLP.parquet",
+      "bytes": 5548,
+      "sha256": "2e31eee7d2c51bbde599eea56438e301238d52152ec9199268f2cd7e80712a62",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__type__controle_p0__RandomForest.parquet",
+      "bytes": 5548,
+      "sha256": "2e31eee7d2c51bbde599eea56438e301238d52152ec9199268f2cd7e80712a62",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__type__controle_p0__XGBoost.parquet",
+      "bytes": 5548,
+      "sha256": "2e31eee7d2c51bbde599eea56438e301238d52152ec9199268f2cd7e80712a62",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__type__enriquecido_p0_p5__MLP.parquet",
+      "bytes": 6555,
+      "sha256": "81f301414541b1ff1964a7cdade0e91be94854ba4f9c133f432f14f7e65671fa",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__type__enriquecido_p0_p5__RandomForest.parquet",
+      "bytes": 6539,
+      "sha256": "a90f7416afd2b92fdb9b66e9be6ead5423374604818b2d45075040c99bf3d5f4",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/previsoes/ieee13__type__enriquecido_p0_p5__XGBoost.parquet",
+      "bytes": 6539,
+      "sha256": "a90f7416afd2b92fdb9b66e9be6ead5423374604818b2d45075040c99bf3d5f4",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee13/resultados/avaliacao_final.json",
+      "bytes": 54278,
+      "sha256": "35024fac96bfadb625e4d2a0189824b077c64f893cbed696dcdfa7a52e62e372",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee34/dados/teste_final/dataset.parquet",
+      "bytes": 20573204,
+      "sha256": "3369eea6f26e84c32e0d7e180c6d2738c1c7f3eb5131e4a304e571b629dd9639",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee34/dados/teste_final/raw_simulations.parquet",
+      "bytes": 5104283,
+      "sha256": "240756f48a5976a0277be1a707b1b134dd5da512b7477713f669f77f7bfabf84",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee34/dados/treino_cv/dataset.parquet",
+      "bytes": 21369491,
+      "sha256": "316cd77e25164ea7ad7f6c84bdcd2f05e2438d2fd10e597a75910414d490f207",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee34/dados/treino_cv/raw_simulations.parquet",
+      "bytes": 5301143,
+      "sha256": "ae91afd77e73aea6ab0cd25cdacaf9f5a35c2dad431bb34bcd79f6070583ba03",
+      "category": "base de dados"
+    },
+    {
+      "path": "sistemas/ieee34/metadados/configuracao_treino.yaml",
+      "bytes": 835,
+      "sha256": "96b6a2e9a15c81fea71817936cc73174b79119882eea015277e79b75750fb30e",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee34/metadados/grupos_barras.json",
+      "bytes": 788,
+      "sha256": "f62fc2501532538ddc8c951cd15d0c254421a971c28702ebbc910d2dee9359a6",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee34/metadados/niveis_teste_final.json",
+      "bytes": 495,
+      "sha256": "95301f14ffebb320fc1f1cedcb17978e5303081579b9fc0b3542fcf5098cafed",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee34/metadados/perfis_espaciais.json",
+      "bytes": 23149,
+      "sha256": "945375dde88290f5162fc44a5e9a3a56b2dde5969fdd2d033626db7ccd4c1496",
+      "category": "documentação e metadados"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__controle_p0__MLP.joblib",
+      "bytes": 422103,
+      "sha256": "f57e9452068162e2fdd6aa8334fffe295c51f213393f94c5ee865758eae54a47",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__controle_p0__MLP.json",
+      "bytes": 3199,
+      "sha256": "df8eccbd29a2d2bb17019bb05433d1e0b2301b4593b75f1df5b8c9600900c7e8",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__controle_p0__RandomForest.joblib",
+      "bytes": 22178805,
+      "sha256": "2d082c03bf0c5da42a5e938ea03003da0d77e2cedff564296a750dc7ea95c677",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__controle_p0__RandomForest.json",
+      "bytes": 2976,
+      "sha256": "a0af2a761aa435e1b5c67b2e3db6893057805ae8ea8dece3499100ed16ca78e3",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__controle_p0__XGBoost.joblib",
+      "bytes": 6216457,
+      "sha256": "504b2dc5adc57d066a4ddae8dbdfdc67b33a81a8ddc9f09a9261de745b2748f9",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__controle_p0__XGBoost.json",
+      "bytes": 5123,
+      "sha256": "31f1a1705e2eb64ea200b7c52f444a800a61fa56d3bf481a17bae7b5e874d811",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__enriquecido_p0_p5__MLP.joblib",
+      "bytes": 392789,
+      "sha256": "f5034f5fd2249df884a0fc8dd9815916c5399961e486a92c24197a6e7b669741",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__enriquecido_p0_p5__MLP.json",
+      "bytes": 3225,
+      "sha256": "c50f29891877559134fd702ba48f9ff5911dd7d027f7d2ee48d3f5e7747c78ed",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__enriquecido_p0_p5__RandomForest.joblib",
+      "bytes": 67282286,
+      "sha256": "8cf3bbc6c65c32d30ebeb297f5364d49d4c622b7bd7c517a6b67a9cf905e9d4e",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__enriquecido_p0_p5__RandomForest.json",
+      "bytes": 3002,
+      "sha256": "f6598670301e55f94b07c0c3bc0bf66529c3191085b5b338d9469bf1687ea87f",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__enriquecido_p0_p5__XGBoost.joblib",
+      "bytes": 8979104,
+      "sha256": "f6736c9d2266b3a79acfd293bb872ba663d38948979b46de62e3d8b5df43ad5b",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__bus__enriquecido_p0_p5__XGBoost.json",
+      "bytes": 5149,
+      "sha256": "3040a163e3b9fe671fe897e160fbb69d1bb2389bdb68025d56f15b22d0455bbe",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__controle_p0__MLP.joblib",
+      "bytes": 331106,
+      "sha256": "db706c9bb93004658811de4470789ec430f9d1d5b5bffbb5a4afcf49f772df32",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__controle_p0__MLP.json",
+      "bytes": 2941,
+      "sha256": "bea3c7bc8bbe5fb60abd266d66e3d34929997f4c7b3e6f97c4669090c4e81b7e",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__controle_p0__RandomForest.joblib",
+      "bytes": 597860,
+      "sha256": "53c7481f965c3af758bab48fa88816929e18f92194041dd2964d574bcc285cfd",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__controle_p0__RandomForest.json",
+      "bytes": 2716,
+      "sha256": "a2ddae4b1b280452e9abd1ab0f67b84a6952d131f8bab969f96658259735519e",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__controle_p0__XGBoost.joblib",
+      "bytes": 254523,
+      "sha256": "a437b32a3d4cf1e05e98b564fc7db5c1c2d9fba68956468870b6bb200f0a7fe5",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__controle_p0__XGBoost.json",
+      "bytes": 4864,
+      "sha256": "0dfd4024541b5d8a1d905407ff89ae6121da74f9cf2c1f884ee601b631f62240",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__enriquecido_p0_p5__MLP.joblib",
+      "bytes": 397005,
+      "sha256": "8ead9e67fa1be156af9111845a946a4d2f0993600e074b713f975f1f8c837dc0",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__enriquecido_p0_p5__MLP.json",
+      "bytes": 2967,
+      "sha256": "c3023b314a86fcc32533d9f77f82fdbac89cecd82e39929329f6d930036c3e01",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__enriquecido_p0_p5__RandomForest.joblib",
+      "bytes": 522142,
+      "sha256": "f70505398f403dd51e4aa2713d7ba660fbe93223788b14cbd0670095240bb842",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__enriquecido_p0_p5__RandomForest.json",
+      "bytes": 2742,
+      "sha256": "dfbbdfc45c0eacaf56137e28036e52316e62444fe7f4f26974d047f7ec3fd2ce",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__enriquecido_p0_p5__XGBoost.joblib",
+      "bytes": 283173,
+      "sha256": "71513dbd2a65903bfd507c06323d1fa817a820f6288d3b4314460965219c3ec6",
+      "category": "modelo treinado"
+    },
+    {
+      "path": "sistemas/ieee34/modelos/ieee34__type__enriquecido_p0_p5__XGBoost.json",
+      "bytes": 4890,
+      "sha256": "6c3b204643591743ac8cd588dcb1610c73c23ab41970e6e9ad40c04e2aa68472",
+      "category": "metadados de modelo"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__bus__controle_p0__MLP.parquet",
+      "bytes": 7476,
+      "sha256": "8f3e974e3ee7a470aa1574badc110da900155c609f02ae5ae631784004235a20",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__bus__controle_p0__RandomForest.parquet",
+      "bytes": 7853,
+      "sha256": "749e1538a64cfda8a151132c97fe823ebeaa923b6a3fb9357982d762b9a165fa",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__bus__controle_p0__XGBoost.parquet",
+      "bytes": 8089,
+      "sha256": "4811d7fd6967059ae7c01fa488b1ead9a982bc42775e0214619bb3af3c859ee5",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__bus__enriquecido_p0_p5__MLP.parquet",
+      "bytes": 16752,
+      "sha256": "2aef04f94b8f880c9810eff94627572353646be403d51c1235a347e6def23bc3",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__bus__enriquecido_p0_p5__RandomForest.parquet",
+      "bytes": 16927,
+      "sha256": "f8212f267a80d5f15262c4706618cf44787f1f4218b3fea124805aef9f5b1e57",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__bus__enriquecido_p0_p5__XGBoost.parquet",
+      "bytes": 17994,
+      "sha256": "4cd5480c9a4d22c07b61e85cfb4c537b6c103e3395b0c714c588b8dd1a2ee05c",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__type__controle_p0__MLP.parquet",
+      "bytes": 5923,
+      "sha256": "ddd027538afa259a80228aae9dd22eeab92a10056f15b3fc4c425d33c40fc63e",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__type__controle_p0__RandomForest.parquet",
+      "bytes": 5906,
+      "sha256": "68339d4ea474bd017fc321a665b927cb292b971f19459f346917fad7f79572d1",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__type__controle_p0__XGBoost.parquet",
+      "bytes": 5906,
+      "sha256": "68339d4ea474bd017fc321a665b927cb292b971f19459f346917fad7f79572d1",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__type__enriquecido_p0_p5__MLP.parquet",
+      "bytes": 9845,
+      "sha256": "d19de142ba66e1fa5b2a714a753316e8c5ff07a16571f2e529ab946fd2b79daa",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__type__enriquecido_p0_p5__RandomForest.parquet",
+      "bytes": 9821,
+      "sha256": "86a80514b2d57742abf992913c276b71afde8527474672fea7e699630257f1ac",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/previsoes/ieee34__type__enriquecido_p0_p5__XGBoost.parquet",
+      "bytes": 9821,
+      "sha256": "86a80514b2d57742abf992913c276b71afde8527474672fea7e699630257f1ac",
+      "category": "previsões salvas"
+    },
+    {
+      "path": "sistemas/ieee34/resultados/avaliacao_final.json",
+      "bytes": 147856,
+      "sha256": "b443af4d7bf1cfb059992a51b54d976d26fa0c0a0926460b9b5a4f665e20cfb8",
+      "category": "documentação e metadados"
+    }
+  ],
+  "total_bytes": 646456050,
+  "note": "Manifesto não inclui a si próprio. Código e modelos próprios:MIT. Dados e documentação próprios:CCBY4. Condições de terceiros preservadas."
+}

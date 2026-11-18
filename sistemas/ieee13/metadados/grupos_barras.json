@@ -1,0 +1,26 @@
+{
+  "original_class_count": 13,
+  "evaluation_class_count": 12,
+  "mapping": {
+    "611": "611",
+    "632": "632",
+    "633": "633",
+    "634": "634",
+    "645": "645",
+    "646": "646",
+    "652": "652",
+    "670": "670",
+    "671": "671/692",
+    "675": "675",
+    "680": "680",
+    "684": "684",
+    "692": "671/692"
+  },
+  "pairs": [
+    [
+      "671",
+      "692"
+    ]
+  ],
+  "applied_at": "Avaliação posterior, sem alterar o treinamento ou os arquivos de modelos."
+}

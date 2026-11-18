@@ -1,0 +1,5 @@
+! Carregador portátil do circuito IEEE 123 utilizado no TCC.
+! Fontes EPRI/OpenDSS preservadas no snapshot SVN r4176.
+! O executor deve definir seu DataPath de saída após compilar este arquivo.
+Redirect "originais/trunk/Distrib/IEEETestCases/123Bus/IEEE123Master.dss"
+Set MaxControlIter=100

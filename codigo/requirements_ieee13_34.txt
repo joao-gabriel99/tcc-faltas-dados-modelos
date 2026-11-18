@@ -1,0 +1,8 @@
+# Versões registradas na execução original; usar ambientes separados.
+numpy==2.5.2
+pandas==3.0.5
+scikit-learn==1.9.0
+xgboost==3.4.1
+joblib==1.5.3
+# Leitor Parquet adicional; versão não registrada no plano antigo:
+pyarrow

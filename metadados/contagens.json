@@ -1,0 +1,38 @@
+[
+  {
+    "system": "ieee13",
+    "development_rows": 16524,
+    "final_test_rows": 15912,
+    "development_control_rows": 2754,
+    "final_test_control_rows": 2652,
+    "original_bus_classes": 13,
+    "primary_evaluation_groups": 12,
+    "development_load_levels": 27,
+    "final_load_levels": 26,
+    "load_levels_intersection": []
+  },
+  {
+    "system": "ieee34",
+    "development_rows": 45846,
+    "final_test_rows": 44148,
+    "development_control_rows": 7641,
+    "final_test_control_rows": 7358,
+    "original_bus_classes": 33,
+    "primary_evaluation_groups": 33,
+    "development_load_levels": 27,
+    "final_load_levels": 26,
+    "load_levels_intersection": []
+  },
+  {
+    "system": "ieee123",
+    "development_rows": 128466,
+    "final_test_rows": 123708,
+    "development_control_rows": 21411,
+    "final_test_control_rows": 20618,
+    "original_bus_classes": 124,
+    "primary_evaluation_groups": 119,
+    "development_load_levels": 27,
+    "final_load_levels": 26,
+    "load_levels_intersection": []
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "profiles": {
+    "ieee13_34": {
+      "serialized_sklearn": "1.9.0",
+      "versions_from_frozen_plan": {
+        "numpy": "2.5.2",
+        "pandas": "3.0.5",
+        "scikit-learn": "1.9.0",
+        "xgboost": "3.4.1",
+        "dss-python": "0.15.7",
+        "joblib": "1.5.3"
+      },
+      "python_training_version": "não registrada no plano consultado",
+      "scope": "Usar dependências do plano original para reprodutibilidade; leitura em 1.8 produz avisos e é somente smoke."
+    },
+    "ieee123": {
+      "serialized_sklearn": "1.8.0",
+      "versions_from_training_manifest": {
+        "numpy": "2.4.4",
+        "pandas": "3.0.2",
+        "scikit-learn": "1.8.0",
+        "xgboost": "3.2.0",
+        "joblib": "1.5.3",
+        "threadpoolctl": "3.6.0"
+      },
+      "python_training_version": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]"
+    }
+  },
+  "inspection_environment": {
+    "python": "3.14.4",
+    "versions": {
+      "numpy": "2.4.4",
+      "scipy": "1.17.1",
+      "pandas": "3.0.2",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.2.0",
+      "joblib": "1.5.3",
+      "threadpoolctl": "3.6.0"
+    }
+  },
+  "note": "Versões históricas registradas; sem instalação ou reconstrução dos ambientes nesta preparação. O teste pontual em versão diferente não comprova reprodução completa."
+}

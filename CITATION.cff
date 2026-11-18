@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Ao utilizar os códigos, dados ou modelos, cite este conjunto de artefatos."
+type: software
+title: "Identificação de faltas em sistemas de distribuição: códigos, dados e modelos"
+authors:
+  - family-names: "Mesquita"
+    given-names: "João Gabriel de Souza"
+version: "1.0.0"
+date-released: "2026-11-18"
+repository-code: "https://github.com/joao-gabriel99/tcc-faltas-dados-modelos"
+url: "https://github.com/joao-gabriel99/tcc-faltas-dados-modelos"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "Artefatos de simulação OpenDSS, classificação do tipo de falta e localização nos sistemas IEEE de 13, 34 e 123 barras. Código e modelos próprios sob MIT; dados e documentação próprios sob CC BY 4.0; condições de terceiros preservadas."

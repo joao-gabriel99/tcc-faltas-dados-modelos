@@ -1,0 +1,169 @@
+{
+  "schema": "tcc.ieee123.fonte-oficial.v1",
+  "origem": "Repositório oficial EPRI OpenDSS no SourceForge, projeto electricdss",
+  "fonte_identidade": [
+    "https://opendss.epri.com/Downloads.html",
+    "https://sourceforge.net/projects/electricdss/"
+  ],
+  "repository": "https://svn.code.sf.net/p/electricdss/code/",
+  "snapshot_svn": 4176,
+  "snapshot_url": "https://svn.code.sf.net/p/electricdss/code/!svn/bc/4176/",
+  "diretorio_circuito_revisao_ultima_alteracao": 2275,
+  "obtido_em_utc": "2026-11-06T14:19:35.916016+00:00",
+  "arquivos_originais_inalterados": true,
+  "arquivos": [
+    {
+      "arquivo": "originais/trunk/Distrib/IEEETestCases/123Bus/IEEE123Master.dss",
+      "url": "https://svn.code.sf.net/p/electricdss/code/!svn/bc/4176/trunk/Distrib/IEEETestCases/123Bus/IEEE123Master.dss",
+      "http_status": 200,
+      "bytes": 17008,
+      "sha256": "cc7c2f153ca1e57f9fb5cad8b3c3e1ecbcb20c5db59ca4d65539411a50525969",
+      "etag": "\"2179//trunk/Distrib/IEEETestCases/123Bus/IEEE123Master.dss\"",
+      "ultima_alteracao_http": "Fri, 06 Apr 2018 13:26:43 GMT",
+      "revisao_arquivo_etag": 2179
+    },
+    {
+      "arquivo": "originais/trunk/Distrib/IEEETestCases/123Bus/IEEELineCodes.DSS",
+      "url": "https://svn.code.sf.net/p/electricdss/code/!svn/bc/4176/trunk/Distrib/IEEETestCases/123Bus/IEEELineCodes.DSS",
+      "http_status": 200,
+      "bytes": 11971,
+      "sha256": "be95f7afaf3e342b132ff2ef20a2b150e3b9966626cbf95eb47f5e9820953c40",
+      "etag": "\"2134//trunk/Distrib/IEEETestCases/123Bus/IEEELineCodes.DSS\"",
+      "ultima_alteracao_http": "Sun, 11 Feb 2018 01:08:46 GMT",
+      "revisao_arquivo_etag": 2134
+    },
+    {
+      "arquivo": "originais/trunk/Distrib/IEEETestCases/123Bus/IEEE123Regulators.DSS",
+      "url": "https://svn.code.sf.net/p/electricdss/code/!svn/bc/4176/trunk/Distrib/IEEETestCases/123Bus/IEEE123Regulators.DSS",
+      "http_status": 200,
+      "bytes": 1861,
+      "sha256": "cd6ad77980dc018631ce39faab528afce40b0b9a50a6bc1c9ac8049ffb8207d7",
+      "etag": "\"2074//trunk/Distrib/IEEETestCases/123Bus/IEEE123Regulators.DSS\"",
+      "ultima_alteracao_http": "Mon, 06 Nov 2017 01:37:16 GMT",
+      "revisao_arquivo_etag": 2074
+    },
+    {
+      "arquivo": "originais/trunk/Distrib/IEEETestCases/123Bus/IEEE123Loads.DSS",
+      "url": "https://svn.code.sf.net/p/electricdss/code/!svn/bc/4176/trunk/Distrib/IEEETestCases/123Bus/IEEE123Loads.DSS",
+      "http_status": 200,
+      "bytes": 8289,
+      "sha256": "fd28f52836205506a1980b52c5a7e12ca585aa626c52a6249502c1c3b2fc2255",
+      "etag": "\"709//trunk/Distrib/IEEETestCases/123Bus/IEEE123Loads.DSS\"",
+      "ultima_alteracao_http": "Thu, 14 Jun 2012 14:15:50 GMT",
+      "revisao_arquivo_etag": 709
+    },
+    {
+      "arquivo": "originais/trunk/Distrib/IEEETestCases/123Bus/BusCoords.dat",
+      "url": "https://svn.code.sf.net/p/electricdss/code/!svn/bc/4176/trunk/Distrib/IEEETestCases/123Bus/BusCoords.dat",
+      "http_status": 200,
+      "bytes": 2858,
+      "sha256": "0b409c0e5d99f365c0140bf38280c1d64932032f1ecb8ef83ae54d4ed0d2716f",
+      "etag": "\"709//trunk/Distrib/IEEETestCases/123Bus/BusCoords.dat\"",
+      "ultima_alteracao_http": "Thu, 14 Jun 2012 14:15:50 GMT",
+      "revisao_arquivo_etag": 709
+    },
+    {
+      "arquivo": "originais/trunk/Distrib/IEEETestCases/123Bus/Run_IEEE123Bus.DSS",
+      "url": "https://svn.code.sf.net/p/electricdss/code/!svn/bc/4176/trunk/Distrib/IEEETestCases/123Bus/Run_IEEE123Bus.DSS",
+      "http_status": 200,
+      "bytes": 4764,
+      "sha256": "559ccd5d3173f9204a7a5a1a764c3f405a0f46941f5e4fd7713f1ebf7ebbc0ef",
+      "etag": "\"878//trunk/Distrib/IEEETestCases/123Bus/Run_IEEE123Bus.DSS\"",
+      "ultima_alteracao_http": "Thu, 06 Jun 2013 04:42:23 GMT",
+      "revisao_arquivo_etag": 878
+    },
+    {
+      "arquivo": "originais/trunk/License.txt",
+      "url": "https://svn.code.sf.net/p/electricdss/code/!svn/bc/4176/trunk/License.txt",
+      "http_status": 200,
+      "bytes": 1760,
+      "sha256": "f31de5735cad3e87994686ca05803c4969f55667b33b9aae06c256a4c1e5d666",
+      "etag": "\"3235//trunk/License.txt\"",
+      "ultima_alteracao_http": "Thu, 04 Nov 2021 17:50:09 GMT",
+      "revisao_arquivo_etag": 3235
+    }
+  ],
+  "master": "originais/trunk/Distrib/IEEETestCases/123Bus/IEEE123Master.dss",
+  "licenca_geral": "originais/trunk/License.txt",
+  "executado": false,
+  "licenca": {
+    "arquivo": "originais/trunk/License.txt",
+    "identificacao_observada": "Texto permissivo EPRI de três cláusulas; o arquivo não contém identificador SPDX.",
+    "copyright": "2008-2021 Electric Power Research Institute, Inc.",
+    "condicoes_resumidas": [
+      "Manter aviso, condições e disclaimer nas redistribuições de fonte.",
+      "Reproduzir aviso, condições e disclaimer na documentação de binários.",
+      "Não usar nome EPRI/contribuidores para endosso sem permissão."
+    ],
+    "limite": "Licença geral do repositório; não foi encontrado cabeçalho de licença individual em cada arquivo do modelo."
+  },
+  "auditoria_dependencias": {
+    "estado": "PASS",
+    "entrada_compilavel": "originais/trunk/Distrib/IEEETestCases/123Bus/IEEE123Master.dss",
+    "dependencias_eletricas_fechadas": true,
+    "dependencias": [
+      {
+        "origem": "IEEE123Master.dss",
+        "linha_fisica_splitlines": 32,
+        "comando": "Redirect        IEEELineCodes.DSS",
+        "destino_local": "IEEELineCodes.DSS",
+        "existe": true
+      },
+      {
+        "origem": "IEEE123Master.dss",
+        "linha_fisica_splitlines": 208,
+        "comando": "Redirect IEEE123Regulators.DSS",
+        "destino_local": "IEEE123Regulators.DSS",
+        "existe": true
+      },
+      {
+        "origem": "IEEE123Master.dss",
+        "linha_fisica_splitlines": 212,
+        "comando": "Redirect IEEE123Loads.DSS",
+        "destino_local": "IEEE123Loads.DSS",
+        "existe": true
+      }
+    ],
+    "arquivos_eletricos": [
+      {
+        "arquivo": "IEEE123Master.dss",
+        "bytes": 17008,
+        "sha256": "cc7c2f153ca1e57f9fb5cad8b3c3e1ecbcb20c5db59ca4d65539411a50525969",
+        "arquivos_adicionais_por_propriedade": [],
+        "comandos_de_saida_gui_ou_caminho": []
+      },
+      {
+        "arquivo": "IEEELineCodes.DSS",
+        "bytes": 11971,
+        "sha256": "be95f7afaf3e342b132ff2ef20a2b150e3b9966626cbf95eb47f5e9820953c40",
+        "arquivos_adicionais_por_propriedade": [],
+        "comandos_de_saida_gui_ou_caminho": []
+      },
+      {
+        "arquivo": "IEEE123Regulators.DSS",
+        "bytes": 1861,
+        "sha256": "cd6ad77980dc018631ce39faab528afce40b0b9a50a6bc1c9ac8049ffb8207d7",
+        "arquivos_adicionais_por_propriedade": [],
+        "comandos_de_saida_gui_ou_caminho": []
+      },
+      {
+        "arquivo": "IEEE123Loads.DSS",
+        "bytes": 8289,
+        "sha256": "fd28f52836205506a1980b52c5a7e12ca585aa626c52a6249502c1c3b2fc2255",
+        "arquivos_adicionais_por_propriedade": [],
+        "comandos_de_saida_gui_ou_caminho": []
+      }
+    ],
+    "coordenadas": "BusCoords.dat é auxiliar; Master não a chama.",
+    "run_exemplo": "Run_IEEE123Bus.DSS foi preservado apenas como referência. Não usar para o diagnóstico: contém Plot/Show/compiles repetidos e redirect para script de plotagem não necessário ao Master."
+  },
+  "observacoes_execucao": [
+    "O Master está original e inalterado; contém Clear, DefaultBaseFrequency60, definições e CalcVoltageBases; não contém Solve explícito.",
+    "O Master e as três dependências elétricas não contêm Plot, Show, Export, DOSCmd, CD ou Set DataPath ativos.",
+    "Compilar o Master em contexto com diretório de trabalho e DataPath isolados e formulários desabilitados.",
+    "O exemplo Run define o medidor de alimentador em Line.L115 terminal1; o Master define essa linha entre149 e1.",
+    "A fonte é bus150, regulador150→150r; Sw1 liga150r a149.",
+    "300_OPEN e 94_OPEN são nós auxiliares de pontas abertas; permanecem no circuito e são excluídos das barras elegíveis para aplicação de faltas."
+  ],
+  "auditoria_em_utc": "2026-11-06T14:21:13.626307+00:00"
+}

@@ -1,0 +1,708 @@
+{
+  "status": "PASS",
+  "models_checked": 36,
+  "rows_predicted": 72,
+  "scope": "Smoke test: duas linhas por modelo, 36 modelos canônicos; não é reexecução completa nem revalidação científica.",
+  "fit_called": false,
+  "environment_changed": false,
+  "items": [
+    {
+      "id": "ieee13__type__controle_p0__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        2651
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 303
+      },
+      "expected_labels": [
+        "1",
+        "8"
+      ],
+      "obtained_labels": [
+        "1",
+        "8"
+      ]
+    },
+    {
+      "id": "ieee13__type__controle_p0__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        2651
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "builtins.UserWarning": 1,
+        "sklearn.exceptions.InconsistentVersionWarning": 1
+      },
+      "expected_labels": [
+        "1",
+        "8"
+      ],
+      "obtained_labels": [
+        "1",
+        "8"
+      ]
+    },
+    {
+      "id": "ieee13__type__controle_p0__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        2651
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 3
+      },
+      "expected_labels": [
+        "1",
+        "8"
+      ],
+      "obtained_labels": [
+        "1",
+        "8"
+      ]
+    },
+    {
+      "id": "ieee13__bus__controle_p0__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        2651
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 303
+      },
+      "expected_labels": [
+        "633",
+        "684"
+      ],
+      "obtained_labels": [
+        "633",
+        "684"
+      ]
+    },
+    {
+      "id": "ieee13__bus__controle_p0__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        2651
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 1
+      },
+      "expected_labels": [
+        "633",
+        "684"
+      ],
+      "obtained_labels": [
+        "633",
+        "684"
+      ]
+    },
+    {
+      "id": "ieee13__bus__controle_p0__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        2651
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 3
+      },
+      "expected_labels": [
+        "633",
+        "684"
+      ],
+      "obtained_labels": [
+        "633",
+        "684"
+      ]
+    },
+    {
+      "id": "ieee13__type__enriquecido_p0_p5__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        15911
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 303
+      },
+      "expected_labels": [
+        "1",
+        "8"
+      ],
+      "obtained_labels": [
+        "1",
+        "8"
+      ]
+    },
+    {
+      "id": "ieee13__type__enriquecido_p0_p5__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        15911
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 1
+      },
+      "expected_labels": [
+        "1",
+        "8"
+      ],
+      "obtained_labels": [
+        "1",
+        "8"
+      ]
+    },
+    {
+      "id": "ieee13__type__enriquecido_p0_p5__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        15911
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 3
+      },
+      "expected_labels": [
+        "1",
+        "8"
+      ],
+      "obtained_labels": [
+        "1",
+        "8"
+      ]
+    },
+    {
+      "id": "ieee13__bus__enriquecido_p0_p5__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        15911
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 303
+      },
+      "expected_labels": [
+        "633",
+        "684"
+      ],
+      "obtained_labels": [
+        "633",
+        "684"
+      ]
+    },
+    {
+      "id": "ieee13__bus__enriquecido_p0_p5__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        15911
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 1
+      },
+      "expected_labels": [
+        "633",
+        "684"
+      ],
+      "obtained_labels": [
+        "633",
+        "684"
+      ]
+    },
+    {
+      "id": "ieee13__bus__enriquecido_p0_p5__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        15911
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 3
+      },
+      "expected_labels": [
+        "633",
+        "684"
+      ],
+      "obtained_labels": [
+        "633",
+        "684"
+      ]
+    },
+    {
+      "id": "ieee34__type__controle_p0__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        7357
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 303
+      },
+      "expected_labels": [
+        "1",
+        "11"
+      ],
+      "obtained_labels": [
+        "1",
+        "11"
+      ]
+    },
+    {
+      "id": "ieee34__type__controle_p0__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        7357
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 1
+      },
+      "expected_labels": [
+        "1",
+        "11"
+      ],
+      "obtained_labels": [
+        "1",
+        "11"
+      ]
+    },
+    {
+      "id": "ieee34__type__controle_p0__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        7357
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 3
+      },
+      "expected_labels": [
+        "1",
+        "10"
+      ],
+      "obtained_labels": [
+        "1",
+        "10"
+      ]
+    },
+    {
+      "id": "ieee34__bus__controle_p0__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        7357
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 303
+      },
+      "expected_labels": [
+        "802",
+        "890"
+      ],
+      "obtained_labels": [
+        "802",
+        "890"
+      ]
+    },
+    {
+      "id": "ieee34__bus__controle_p0__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        7357
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 1
+      },
+      "expected_labels": [
+        "802",
+        "890"
+      ],
+      "obtained_labels": [
+        "802",
+        "890"
+      ]
+    },
+    {
+      "id": "ieee34__bus__controle_p0__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        7357
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 3
+      },
+      "expected_labels": [
+        "802",
+        "890"
+      ],
+      "obtained_labels": [
+        "802",
+        "890"
+      ]
+    },
+    {
+      "id": "ieee34__type__enriquecido_p0_p5__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        44147
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 303
+      },
+      "expected_labels": [
+        "1",
+        "11"
+      ],
+      "obtained_labels": [
+        "1",
+        "11"
+      ]
+    },
+    {
+      "id": "ieee34__type__enriquecido_p0_p5__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        44147
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 1
+      },
+      "expected_labels": [
+        "1",
+        "11"
+      ],
+      "obtained_labels": [
+        "1",
+        "11"
+      ]
+    },
+    {
+      "id": "ieee34__type__enriquecido_p0_p5__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        44147
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 3
+      },
+      "expected_labels": [
+        "1",
+        "11"
+      ],
+      "obtained_labels": [
+        "1",
+        "11"
+      ]
+    },
+    {
+      "id": "ieee34__bus__enriquecido_p0_p5__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        44147
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 303
+      },
+      "expected_labels": [
+        "802",
+        "890"
+      ],
+      "obtained_labels": [
+        "802",
+        "890"
+      ]
+    },
+    {
+      "id": "ieee34__bus__enriquecido_p0_p5__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        44147
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 1
+      },
+      "expected_labels": [
+        "802",
+        "890"
+      ],
+      "obtained_labels": [
+        "802",
+        "890"
+      ]
+    },
+    {
+      "id": "ieee34__bus__enriquecido_p0_p5__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        44147
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {
+        "sklearn.exceptions.InconsistentVersionWarning": 3
+      },
+      "expected_labels": [
+        "802",
+        "890"
+      ],
+      "obtained_labels": [
+        "802",
+        "890"
+      ]
+    },
+    {
+      "id": "ieee123__type__controle_p0__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        20617
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "11"
+      ],
+      "obtained_labels": [
+        "1",
+        "11"
+      ]
+    },
+    {
+      "id": "ieee123__type__controle_p0__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        20617
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "11"
+      ],
+      "obtained_labels": [
+        "1",
+        "11"
+      ]
+    },
+    {
+      "id": "ieee123__type__controle_p0__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        20617
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "10"
+      ],
+      "obtained_labels": [
+        "1",
+        "10"
+      ]
+    },
+    {
+      "id": "ieee123__bus__controle_p0__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        20617
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "610"
+      ],
+      "obtained_labels": [
+        "1",
+        "610"
+      ]
+    },
+    {
+      "id": "ieee123__bus__controle_p0__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        20617
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "610"
+      ],
+      "obtained_labels": [
+        "1",
+        "610"
+      ]
+    },
+    {
+      "id": "ieee123__bus__controle_p0__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        20617
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "610"
+      ],
+      "obtained_labels": [
+        "1",
+        "610"
+      ]
+    },
+    {
+      "id": "ieee123__type__enriquecido_p0_p5__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        123707
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "10"
+      ],
+      "obtained_labels": [
+        "1",
+        "10"
+      ]
+    },
+    {
+      "id": "ieee123__type__enriquecido_p0_p5__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        123707
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "11"
+      ],
+      "obtained_labels": [
+        "1",
+        "11"
+      ]
+    },
+    {
+      "id": "ieee123__type__enriquecido_p0_p5__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        123707
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "10"
+      ],
+      "obtained_labels": [
+        "1",
+        "10"
+      ]
+    },
+    {
+      "id": "ieee123__bus__enriquecido_p0_p5__RandomForest",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        123707
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "610"
+      ],
+      "obtained_labels": [
+        "1",
+        "610"
+      ]
+    },
+    {
+      "id": "ieee123__bus__enriquecido_p0_p5__XGBoost",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        123707
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "610"
+      ],
+      "obtained_labels": [
+        "1",
+        "610"
+      ]
+    },
+    {
+      "id": "ieee123__bus__enriquecido_p0_p5__MLP",
+      "status": "PASS",
+      "sample_positions": [
+        0,
+        123707
+      ],
+      "metadata_alignment_verified": true,
+      "warnings": {},
+      "expected_labels": [
+        "1",
+        "610"
+      ],
+      "obtained_labels": [
+        "1",
+        "610"
+      ]
+    }
+  ],
+  "note": "Duas linhas por modelo, coincidindo com previsões salvas. Avisos de versão13/34 preservados; não é avaliação integral."
+}

@@ -1,0 +1,3 @@
+# Complemento das versões registradas por sistema
+psutil
+threadpoolctl
